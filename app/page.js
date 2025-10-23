@@ -14,6 +14,8 @@ export default function Home() {
           </div>
         </div>
       </nav>
+
+      {/* Home Section: */}
       <section id="home" className="min-h-screen flex items-center justify-center px-6">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-emerald-400 text-sm mb-6 font-mono">Hi! My Name is</p>
@@ -23,6 +25,8 @@ export default function Home() {
           <a href="#Projects" className="inline-flex items-center gap-2 px-8 py-4 border-2 border-emerald-400 text-emerald-400 rounded-lg hover:bg-emerald-400 hover:text-slate-950 transition-all">View My Work</a>
         </div>
       </section>
+
+      {/* About Section: */}
       <section id="about" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
@@ -56,6 +60,63 @@ export default function Home() {
                   Python
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Section: */}
+      <section id="projects" className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Project 1 Card - Invoice System Project */}
+            <div className="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-emerald-400 transition-all">
+              <div className="text-emerald-400 text-sm font-mono mb-2">Featured Project:</div>
+              <h3 className="text-2xl font-bold mb-3 text-white">Invoice Management System</h3>
+              <p className="text-slate-400 mb-4 text-sm leading-relaxed">Full-stack web application for hauling invoice management with automatic calculations, PDF generation, and iPad optimization. Reduces invoice creation time by 70%.</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">React</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Node.js</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Express</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">MongoDB</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Tailwind CSS</span>
+              </div>
+              <div className="flex gap-4">
+                <a href="https://github.com/gurpinders/invoice-system" className="text-slate-400 hover:text-emerald-400 transition-colors text-sm">GitHub</a>
+                <a href="https://invoice-system-virid.vercel.app" className="text-slate-400 hover:text-emerald-400 transition-colors text-sm">Live Demo</a>
+              </div>
+            </div>
+
+            {/* Project 2 Card - Project Placeholder */}
+            <div className="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-emerald-400 transition-all">
+              <h3 className="text-2xl font-bold mb-3 text-white">Project Placeholder</h3>
+              <p className="text-slate-400 mb-4 text-sm leading-relaxed">Description Placeholder</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">React</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Node.js</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Express</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">MongoDB</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Tailwind CSS</span>
+              </div>
+              <div className="flex gap-4">
+                <a href="#Placeholder" className="text-slate-400 hover:text-emerald-400 transition-colors text-sm">Placeholder</a>
+              </div>
+            </div>
+            {/* Project 3 Card - Project Placeholder */}
+            <div className="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-emerald-400 transition-all">
+              <h3 className="text-2xl font-bold mb-3 text-white">Project Placeholder</h3>
+              <p className="text-slate-400 mb-4 text-sm leading-relaxed">Description Placeholder</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">React</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Node.js</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Express</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">MongoDB</span>
+                <span className="px-3 py-1 bg-slate-700 text-emerald-400 rounded-full text-xs">Tailwind CSS</span>
+              </div>
+              <div className="flex gap-4">
+                <a href="#Placeholder" className="text-slate-400 hover:text-emerald-400 transition-colors text-sm">Placeholder</a>
+              </div>
             </div>
           </div>
         </div>
