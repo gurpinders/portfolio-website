@@ -3,6 +3,7 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
+      {/* Nav Bar: */}
       <nav className="fixed top-0 w-full p-6 bg-slate-950 z-50">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="text-xl font-bold">Gurpinderjeet Sandhu</div>
@@ -121,6 +122,27 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Contact Section: */}
+      <section id="contact" className="py-20 px-6 bg-slate-900/50">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-5xl font-bold mb-6 text-white">Get In Touch</h2>
+          <p className="text-slate-400 mb-8 leading-relaxed text-lg">I am currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out!</p>
+          <a href="mailto:psandhu0124@gmail.com" className="inline-block px-8 py-4 border-2 border-emerald-400 text-emerald-400 rounded-lg hover:bg-emerald-400 hover:text-slate-950 transition-all font-medium mb-8">Email</a>
+          <div className="flex gap-6 justify-center">
+            <a href="https://github.com/gurpinders" className="text-slate-400 hover:text-emerald-400 transition-colors text-lg">GitHub</a>
+            <a href="https://linkedin.com/in/YOUR-LINKEDIN" className="text-slate-400 hover:text-emerald-400 transition-colors text-lg">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer: */}
+      <footer className="py-8 px-6 border-t border-slate-800">
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="text-slate-500 text-sm">Built with Next.js & Tailwind CSS by Gurpinderjeet Sandhu</p>
+          <p className="text-slate-600 text-xs mt-2">© 2025 All rights reserved</p>
+        </div>
+      </footer>
     </div>
   );
 }
