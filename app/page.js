@@ -22,7 +22,7 @@ export default function Home() {
           <p className="text-emerald-400 text-sm mb-6 font-mono">Hi! My Name is</p>
           <h1 className="text-6xl font-bold mb-4">Gurpinderjeet Sandhu</h1>
           <h2 className="text-4xl font-bold text-slate-400 mb-6">Full Stack Developer</h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">I am a full-stack developer specializing in building exceptional digital experiences. Currently focused on creating accessible, performant web applications with modern technologies</p>
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">I am a full-stack developer specializing in building exceptional digital experiences. Currently focused on creating accessible, performant web applications with modern technologies.</p>
           <a href="#Projects" className="inline-flex items-center gap-2 px-8 py-4 border-2 border-emerald-400 text-emerald-400 rounded-lg hover:bg-emerald-400 hover:text-slate-950 transition-all">View My Work</a>
         </div>
       </section>
