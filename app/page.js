@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -73,6 +74,24 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Project 1 Card - Invoice System Project */}
             <div className="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-emerald-400 transition-all">
+              <div className="mb-4 -mx-6 -mt-6">
+                <div className="grid grid-cols-2 gap-2 p-2 bg-slate-900 rounded-t-lg">
+                  <Image 
+                    src="/dashboard.png" 
+                    alt="Invoice System Dashboard"
+                    width={400}
+                    height={160}
+                    className="w-full h-40 object-cover rounded-lg"
+                  />
+                  <Image 
+                    src="/create_invoice_with_entries.png" 
+                    alt="Invoice System Entries"
+                    width={400}
+                    height={160}
+                    className="w-full h-40 object-cover rounded-lg"
+                  />
+                </div>
+              </div>
               <div className="text-emerald-400 text-sm font-mono mb-2">Featured Project:</div>
               <h3 className="text-2xl font-bold mb-3 text-white">Invoice Management System</h3>
               <p className="text-slate-400 mb-4 text-sm leading-relaxed">Full-stack web application for hauling invoice management with automatic calculations, PDF generation, and iPad optimization. Reduces invoice creation time by 70%.</p>
